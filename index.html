@@ -1,13 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
-  <title>Redirecting...</title>
+<title>Redirecting...</title>
+<script>
+var u = "https://caproductions.github.io/home/"
+try{redirectUrl=location.href.split("/"),finalRedirect=[];for(let e=0;e<redirectUrl.length;e++)e>2&&finalRedirect.push(redirectUrl[e]);location.href=u+finalRedirect.join("/");} catch(f) {location.href=u}
+</script>
 </head>
-<body>
-  Redirecting you to <a href="https://CAProductions.github.io/home">https://CAProductions.github.io/home</a>...<br>
-  <script>
-    window.location.href = "https://CAProductions.github.io/home"
-  </script>
-</body>
 </html>

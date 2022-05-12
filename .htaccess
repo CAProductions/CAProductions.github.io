@@ -1,0 +1,2 @@
+# Make any url show the page that redirects you.
+ErrorDocument 404 /index.html
